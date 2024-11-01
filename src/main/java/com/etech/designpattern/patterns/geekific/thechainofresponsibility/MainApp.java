@@ -1,11 +1,10 @@
 package com.etech.designpattern.patterns.geekific.thechainofresponsibility;
 
-import com.etech.designpattern.patterns.geekific.thechainofresponsibility.handlers.Handler;
 import com.etech.designpattern.patterns.geekific.thechainofresponsibility.handlers.RoleCheckHandler;
 import com.etech.designpattern.patterns.geekific.thechainofresponsibility.handlers.UserExistHandler;
 import com.etech.designpattern.patterns.geekific.thechainofresponsibility.handlers.ValidPasswordHandler;
 
-public class App {
+public class MainApp {
     public static void main(String[] args) {
         Database database = new Database();
 
